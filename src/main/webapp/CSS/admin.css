@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    padding: 2px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.dashboard {
+    width: 15%;
+    /* background: url(https://1.bp.blogspot.com/-Qolegui18XU/YHf0P3k5iJI/AAAAAAAAAi4/aF4iDfIxPswQJC8v9ap0JGJILpuN2P15gCLcBGAsYHQ/s0/hinh%2Bnen%2Bbackground%2Btruu%2Btuong%2Bdep%2Bcho%2Bmay%2Btinh%2B%252812%2529.jpg) no-repeat center center #505050; */
+    background: url(https://startuanit.net/wp-content/uploads/2021/05/hinh-nen-lau-dai-trang-le-cho-dien-thoai-23.jpg) no-repeat center center #505050;
+    background-size: cover;
+    border-radius: 2px;
+    height: 100%;
+    box-shadow: 1px 0px 10px 1px #585858;
+    border: 1px solid #0a0a0a;
+    position: relative;
+    padding: 1px;
+}
+
+.dashboard-nav {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+.dashboard-option {
+    margin: 18px 0;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    text-shadow: #505050 5px 5px 5px;
+}
+
+.dashboard-option a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-option:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: black;
+}
+
+.dashboard-topnav {
+    color: #ff0000;
+    font-weight: 1000;
+    border-bottom: #0a0a0a solid 1px;
+    padding: 10px;
+    margin: 40px 0;
+    text-shadow: #505050 5px 5px 5px;
+}
+
+.dashboard-out {
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    border: #0a0a0a solid 1px;
+    width: 100%;
+    padding: 6px 5px;
+}
+
+.dashboard-out a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px;
+    text-shadow: #505050 5px 5px 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-out a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.content {
+    background-image: linear-gradient(rgb(230, 85, 18), rgb(53, 173, 182));
+    width: 85%;
+    height: 100%;
+}
+
+.content-img {
+    height: 50%;
+}
+
+.content-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.content table {
+    margin: 30px 30px;
+}
+
+tbody {
+    box-shadow: #505050 5px 5px 5px 5px;
+    ;
+}
+
+table th {
+    border-bottom: 1px solid rgb(211, 240, 245);
+    text-align: left;
+    width: 200px;
+    height: 25px;
+    padding: 10px 10px;
+}
+
+table td {
+    border-bottom: 1px solid rgb(211, 240, 245);
+    border-spacing: 0;
+    text-align: left;
+    width: 200px;
+    height: 25px;
+    padding: 15px 10px;
+}
+
+.tit {
+    column-span: 4;
+    text-align: center;
+    border: 1px solid rgb(211, 240, 245);
+    background-color: rgb(13, 75, 190);
+    font-size: 20px;
+}
